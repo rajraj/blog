@@ -12,7 +12,7 @@ I love [Iterm](https://iterm2.com/) and I would like to share with you some of t
 
 ## Make him look pretty
 
-Everyone loved to work with the awesome, fast and powerful tool. But we also want them to look pretty and by customizable. Iterm can be all of them. First thing at the first installation the theme is already pretty good. But if you want to change this theme just take a look at this [website](http://iterm2colorschemes.com/). He has a lot of scheme and some of them are really beautiful. Also in your profile settings `cmd + ,` you can change the fonts of him. If you don't like the standard font you can just change it here. ![](https://image.ibb.co/nFyA05/uhjhcr38qq5efbw_preserve_transparency_False_size_1024x1024_size_mode_2.png)
+Everyone loved to work with the awesome, fast and powerful tool. But we also want them to look pretty and by customizable. Iterm can be all of them. First thing at the first installation the theme is already pretty good. But if you want to change this theme just take a look at this [website](http://iterm2colorschemes.com/). He has a lot of scheme and some of them are really beautiful. Also in your profile settings `⌘ + ,` you can change the fonts of him. If you don't like the standard font you can just change it here. ![](https://image.ibb.co/nFyA05/uhjhcr38qq5efbw_preserve_transparency_False_size_1024x1024_size_mode_2.png)
 
 Just click on change font. For me has you can see I use [Hasklig](https://github.com/i-tu/Hasklig).
 
@@ -20,7 +20,7 @@ Just click on change font. For me has you can see I use [Hasklig](https://github
 
 Has a Mac user, we love the shortcut of Mac when it comes to delete a single word, delete a full line, go to the beginning of a line etc. But if you have played with iterm you know them they don't work. **BUT** They can ;)
 
-Go in your profile `cmd + ,` and click on keys
+Go in your profile `⌘ + ,` and click on keys
 
 ![](https://image.ibb.co/m95OL5/v0meg9nqfruwhj5_preserve_transparency_False_size_1024x1024_size_mode_2.png)
 
@@ -28,19 +28,19 @@ After that in the right where we see Key mappings, we can add these command.
 
 ---
 
-### For delete a single word with `options + delete`
+### For delete a single word with `⌥ + ⌫`
 
 - Action: Send Hex Code 0x17
 
-### For delete a full line with `cmd + delete`
+### For delete a full line with `⌘ + ⌫`
 
 - Action: Send Hex Code 0x15
 
-### For go to the beginning of a line with `cmd + left arrow`
+### For go to the beginning of a line with `⌘ + ←`
 
 - Action: Send Hex Code 0x01
 
-### For go to the end of a line with `cmd + right arrow`
+### For go to the end of a line with `⌘ + →`
 
 - Action: Send Hex Code 0x05
 
@@ -48,13 +48,13 @@ After that in the right where we see Key mappings, we can add these command.
 
 ## Some tips
 
-For opening a new tab like always in Mac you can just `cmd + t`. After that, if you want to travel between them you can `cmd + number of the panel`. Example `cmd + 2` send me to the second panel.
+For opening a new tab like always in Mac you can just `⌘ + t`. After that, if you want to travel between them you can `⌘ + number of the panel`. Example `⌘ + 2` send me to the second panel.
 
-Also if you want to split screen just hit `cmd + d` that gonna split to the right. If you want to change between split you can here
+Also if you want to split screen just hit `⌘ + d` that gonna split to the right. If you want to change between split you can here
 
 ![](https://image.ibb.co/m95OL5/v0meg9nqfruwhj5_preserve_transparency_False_size_1024x1024_size_mode_2.png)
 
-Add the same command as me. So now I just need to `options + number of the split`.
+Add the same command as me. So now I just need to `⌥ + number of the split`.
 
 ## Open him with a good size
 
