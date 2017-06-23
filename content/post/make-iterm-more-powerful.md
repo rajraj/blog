@@ -3,7 +3,7 @@ author: "Emanuel Quimper"
 date: 2017-06-22T18:18:59-05:00
 linktitle: Make iterm more powerful
 title: Make iterm more powerful
-description: Iterm his already awesome but with this quick tips can be more.
+description: Iterm his already awesome but with this quick tips can be more. How can you make iterm listen to native mac command ?
 weight: 10
 tags: ["random", "tips", "command line"]
 ---
