@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EQuimper&#39;s Blog</title>
+    <link>https://equimper.me/</link>
+    <description>Recent content on EQuimper&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jun 2017 18:18:59 -0500</lastBuildDate>
+    
+	<atom:link href="https://equimper.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Make iterm more powerful</title>
+      <link>https://equimper.me/post/make-iterm-more-powerful/</link>
+      <pubDate>Thu, 22 Jun 2017 18:18:59 -0500</pubDate>
+      
+      <guid>https://equimper.me/post/make-iterm-more-powerful/</guid>
+      <description>I love Iterm and I would like to share with you some of the tips I found with this awesome tools.
+Make him look pretty Everyone loved to work with the awesome, fast and powerful tool. But we also want them to look pretty and by customizable. Iterm can be all of them. First thing at the first installation the theme is already pretty good. But if you want to change this theme just take a look at this website.</description>
+    </item>
+    
+    <item>
+      <title>What I found by building my own NodeJS boilerplate.</title>
+      <link>https://equimper.me/post/what-i-found-by-building-my-own-nodejs-boilerplate/</link>
+      <pubDate>Wed, 03 May 2017 11:15:58 -0500</pubDate>
+      
+      <guid>https://equimper.me/post/what-i-found-by-building-my-own-nodejs-boilerplate/</guid>
+      <description>What I found by building my own NodeJS boilerplate. Mongoose Tips I’ve played with Mongoose a lot in the past week. I’ve built a NodeJS API boilerplate for help me kickstart some REST API project. I setup the regular auth using PassportJS with the local and JWT strategies. By doing this I found some useful tricks with Mongoose. Some tips I never really see somewhere ‘maybe I didn’t search lot 😃’ and I want to share you what I found.</description>
+    </item>
+    
+    <item>
+      <title>Why I moved away from Atom to Visual Studio Code and my Setup</title>
+      <link>https://equimper.me/post/why-i-moved-away-from-atom-to-visual-studio-code-and-my-setup/</link>
+      <pubDate>Sat, 25 Feb 2017 09:10:28 -0500</pubDate>
+      
+      <guid>https://equimper.me/post/why-i-moved-away-from-atom-to-visual-studio-code-and-my-setup/</guid>
+      <description>VSC: Visual Studio Code
+Why I moved away from Atom I was an Atom user for nearly a year. Everything about this text editor was perfect for me. For starters, the packages manager was much more beginner friendly than Sublime. Also, there were always new updates which seemed to make my text editor more and more powerful with each update. But 4 months ago I started to feel the pain of the slow speed of Atom.</description>
+    </item>
+    
+    <item>
+      <title>Testing your API with Postman</title>
+      <link>https://equimper.me/post/testing-your-api-with-postman/</link>
+      <pubDate>Sat, 28 Jan 2017 20:15:48 -0500</pubDate>
+      
+      <guid>https://equimper.me/post/testing-your-api-with-postman/</guid>
+      <description>Testing your API with Postman I&amp;rsquo;m sure you already know the famous tool call Postman. This is a super useful tool for test your API and looks at the response you get from your server. But I see a lot of people just using it as a manual tester. This is not wrong but you can get much better productivity with if you use some of Postman features.
+Create your first Simple Test First thing this is a simple controller in your app where you can fetch a unique post with is ID as params.</description>
+    </item>
+    
+    <item>
+      <title>My goals for 2017</title>
+      <link>https://equimper.me/post/my-goals-for-2017/</link>
+      <pubDate>Fri, 06 Jan 2017 12:44:59 -0500</pubDate>
+      
+      <guid>https://equimper.me/post/my-goals-for-2017/</guid>
+      <description>Intro 2016 was a big year for me. First thing, I start coding the 6 January 2016 so today is my first full year finish. Coming from an Army background this was one of the biggest moves of my life. I&amp;rsquo;ve always done a physical job and this one we all know is really more technical. I found by coding every day in the year &amp;ldquo;Yes 365days last year I have touched my PC and coded&amp;rdquo; that I love that more and more.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on EQuimper&#39;s Blog</title>
+    <link>https://equimper.me/tags/tips/</link>
+    <description>Recent content in Tips on EQuimper&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jun 2017 18:18:59 -0500</lastBuildDate>
+    
+	<atom:link href="https://equimper.me/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Make iterm more powerful</title>
+      <link>https://equimper.me/post/make-iterm-more-powerful/</link>
+      <pubDate>Thu, 22 Jun 2017 18:18:59 -0500</pubDate>
+      
+      <guid>https://equimper.me/post/make-iterm-more-powerful/</guid>
+      <description>I love Iterm and I would like to share with you some of the tips I found with this awesome tools.
+Make him look pretty Everyone loved to work with the awesome, fast and powerful tool. But we also want them to look pretty and by customizable. Iterm can be all of them. First thing at the first installation the theme is already pretty good. But if you want to change this theme just take a look at this website.</description>
+    </item>
+    
+    <item>
+      <title>What I found by building my own NodeJS boilerplate.</title>
+      <link>https://equimper.me/post/what-i-found-by-building-my-own-nodejs-boilerplate/</link>
+      <pubDate>Wed, 03 May 2017 11:15:58 -0500</pubDate>
+      
+      <guid>https://equimper.me/post/what-i-found-by-building-my-own-nodejs-boilerplate/</guid>
+      <description>What I found by building my own NodeJS boilerplate. Mongoose Tips I’ve played with Mongoose a lot in the past week. I’ve built a NodeJS API boilerplate for help me kickstart some REST API project. I setup the regular auth using PassportJS with the local and JWT strategies. By doing this I found some useful tricks with Mongoose. Some tips I never really see somewhere ‘maybe I didn’t search lot 😃’ and I want to share you what I found.</description>
+    </item>
+    
+  </channel>
+</rss>

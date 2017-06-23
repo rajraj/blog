@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nodejs on EQuimper&#39;s Blog</title>
+    <link>https://equimper.me/tags/nodejs/</link>
+    <description>Recent content in Nodejs on EQuimper&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 May 2017 11:15:58 -0500</lastBuildDate>
+    
+	<atom:link href="https://equimper.me/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What I found by building my own NodeJS boilerplate.</title>
+      <link>https://equimper.me/post/what-i-found-by-building-my-own-nodejs-boilerplate/</link>
+      <pubDate>Wed, 03 May 2017 11:15:58 -0500</pubDate>
+      
+      <guid>https://equimper.me/post/what-i-found-by-building-my-own-nodejs-boilerplate/</guid>
+      <description>What I found by building my own NodeJS boilerplate. Mongoose Tips I’ve played with Mongoose a lot in the past week. I’ve built a NodeJS API boilerplate for help me kickstart some REST API project. I setup the regular auth using PassportJS with the local and JWT strategies. By doing this I found some useful tricks with Mongoose. Some tips I never really see somewhere ‘maybe I didn’t search lot 😃’ and I want to share you what I found.</description>
+    </item>
+    
+  </channel>
+</rss>

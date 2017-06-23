@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mylife on EQuimper&#39;s Blog</title>
+    <link>https://equimper.me/tags/mylife/</link>
+    <description>Recent content in Mylife on EQuimper&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Jan 2017 12:44:59 -0500</lastBuildDate>
+    
+	<atom:link href="https://equimper.me/tags/mylife/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My goals for 2017</title>
+      <link>https://equimper.me/post/my-goals-for-2017/</link>
+      <pubDate>Fri, 06 Jan 2017 12:44:59 -0500</pubDate>
+      
+      <guid>https://equimper.me/post/my-goals-for-2017/</guid>
+      <description>Intro 2016 was a big year for me. First thing, I start coding the 6 January 2016 so today is my first full year finish. Coming from an Army background this was one of the biggest moves of my life. I&amp;rsquo;ve always done a physical job and this one we all know is really more technical. I found by coding every day in the year &amp;ldquo;Yes 365days last year I have touched my PC and coded&amp;rdquo; that I love that more and more.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on EQuimper&#39;s Blog</title>
+    <link>https://equimper.me/tags/web/</link>
+    <description>Recent content in Web on EQuimper&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Feb 2017 09:10:28 -0500</lastBuildDate>
+    
+	<atom:link href="https://equimper.me/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why I moved away from Atom to Visual Studio Code and my Setup</title>
+      <link>https://equimper.me/post/why-i-moved-away-from-atom-to-visual-studio-code-and-my-setup/</link>
+      <pubDate>Sat, 25 Feb 2017 09:10:28 -0500</pubDate>
+      
+      <guid>https://equimper.me/post/why-i-moved-away-from-atom-to-visual-studio-code-and-my-setup/</guid>
+      <description>VSC: Visual Studio Code
+Why I moved away from Atom I was an Atom user for nearly a year. Everything about this text editor was perfect for me. For starters, the packages manager was much more beginner friendly than Sublime. Also, there were always new updates which seemed to make my text editor more and more powerful with each update. But 4 months ago I started to feel the pain of the slow speed of Atom.</description>
+    </item>
+    
+  </channel>
+</rss>

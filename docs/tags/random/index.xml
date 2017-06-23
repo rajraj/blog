@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Random on EQuimper&#39;s Blog</title>
+    <link>https://equimper.me/tags/random/</link>
+    <description>Recent content in Random on EQuimper&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jun 2017 18:18:59 -0500</lastBuildDate>
+    
+	<atom:link href="https://equimper.me/tags/random/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Make iterm more powerful</title>
+      <link>https://equimper.me/post/make-iterm-more-powerful/</link>
+      <pubDate>Thu, 22 Jun 2017 18:18:59 -0500</pubDate>
+      
+      <guid>https://equimper.me/post/make-iterm-more-powerful/</guid>
+      <description>I love Iterm and I would like to share with you some of the tips I found with this awesome tools.
+Make him look pretty Everyone loved to work with the awesome, fast and powerful tool. But we also want them to look pretty and by customizable. Iterm can be all of them. First thing at the first installation the theme is already pretty good. But if you want to change this theme just take a look at this website.</description>
+    </item>
+    
+    <item>
+      <title>My goals for 2017</title>
+      <link>https://equimper.me/post/my-goals-for-2017/</link>
+      <pubDate>Fri, 06 Jan 2017 12:44:59 -0500</pubDate>
+      
+      <guid>https://equimper.me/post/my-goals-for-2017/</guid>
+      <description>Intro 2016 was a big year for me. First thing, I start coding the 6 January 2016 so today is my first full year finish. Coming from an Army background this was one of the biggest moves of my life. I&amp;rsquo;ve always done a physical job and this one we all know is really more technical. I found by coding every day in the year &amp;ldquo;Yes 365days last year I have touched my PC and coded&amp;rdquo; that I love that more and more.</description>
+    </item>
+    
+  </channel>
+</rss>

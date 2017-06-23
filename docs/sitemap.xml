@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://equimper.me/post/make-iterm-more-powerful/</loc>
+    <lastmod>2017-06-22T18:18:59-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/post/what-i-found-by-building-my-own-nodejs-boilerplate/</loc>
+    <lastmod>2017-05-03T11:15:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/post/why-i-moved-away-from-atom-to-visual-studio-code-and-my-setup/</loc>
+    <lastmod>2017-02-25T09:10:28-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/post/testing-your-api-with-postman/</loc>
+    <lastmod>2017-01-28T20:15:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/post/my-goals-for-2017/</loc>
+    <lastmod>2017-01-06T12:44:59-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/article/</loc>
+    <lastmod>2017-01-28T20:15:48-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/command-line/</loc>
+    <lastmod>2017-06-22T18:18:59-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/</loc>
+    <lastmod>2017-06-22T18:18:59-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/express/</loc>
+    <lastmod>2017-05-03T11:15:58-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/javascript/</loc>
+    <lastmod>2017-05-03T11:15:58-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/mongodb/</loc>
+    <lastmod>2017-05-03T11:15:58-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/mylife/</loc>
+    <lastmod>2017-01-06T12:44:59-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/nodejs/</loc>
+    <lastmod>2017-05-03T11:15:58-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/npm-packages/</loc>
+    <lastmod>2017-05-03T11:15:58-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/post/</loc>
+    <lastmod>2017-06-22T18:18:59-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/random/</loc>
+    <lastmod>2017-06-22T18:18:59-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/</loc>
+    <lastmod>2017-01-28T20:15:48-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/text-editor/</loc>
+    <lastmod>2017-02-25T09:10:28-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/tips/</loc>
+    <lastmod>2017-06-22T18:18:59-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/tutorial/</loc>
+    <lastmod>2017-01-28T20:15:48-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/web/</loc>
+    <lastmod>2017-02-25T09:10:28-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
