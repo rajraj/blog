@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://equimper.me/post/how-do-i-manage-my-state-with-react/</loc>
+    <lastmod>2018-05-10T17:37:40-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://equimper.me/post/my-goals-for-2018/</loc>
     <lastmod>2018-01-12T21:53:12-05:00</lastmod>
   </url>
@@ -62,8 +67,26 @@
   </url>
   
   <url>
+    <loc>https://equimper.me/tags/formik/</loc>
+    <lastmod>2018-05-10T17:37:40-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://equimper.me/tags/javascript/</loc>
     <lastmod>2017-05-03T11:15:58-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/mobx/</loc>
+    <lastmod>2018-05-10T17:37:40-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/mobx-state-tree/</loc>
+    <lastmod>2018-05-10T17:37:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -104,6 +127,18 @@
   </url>
   
   <url>
+    <loc>https://equimper.me/tags/react/</loc>
+    <lastmod>2018-05-10T17:37:40-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/redux/</loc>
+    <lastmod>2018-05-10T17:37:40-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://equimper.me/tags/</loc>
     <lastmod>2017-01-28T20:15:48-05:00</lastmod>
     <priority>0</priority>
@@ -112,6 +147,12 @@
   <url>
     <loc>https://equimper.me/tags/text-editor/</loc>
     <lastmod>2017-02-25T09:10:28-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/thinking/</loc>
+    <lastmod>2018-05-10T17:37:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   
