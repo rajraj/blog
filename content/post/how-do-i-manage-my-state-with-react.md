@@ -1,38 +1,40 @@
 ---
 title: "How do I Manage my State with React"
 linktitle: "How do I Manage my State with React"
-date: 2018-05-10T17:37:40-04:00
+date: 2018-05-13T10:37:40-04:00
 description: "How do I manage my state in my react application"
-tags: ["react", "redux", "formik", "mobx-state-tree", "mobx", "thinking"]
+tags: ["react", "redux", "formik", "mobx-state-tree", "mobx", "opinion", "article"]
 ---
 
 ## Intro
 
 **SML** -> State management library -> like Redux or Mobx
 
-**P.S** This is just my thinking, this is not a best practice guide etc, just what I found best for the app I build.
+**P.S** This is just my opinion, this is not a best practice guide etc, just what I found best for the app I built recently.
 
-When building an app with react or react-native we came with a lot of choices. One of the most important ones is what to do with the state, where should I put it, how to use it, and how to make it easy to maintain.
+When building an app with react or react-native I had lots of options. One of the most important option was how to manage state, where should I put it, how to use it, and lastly how make it easy to maintain.
 
-These questions are surely asked by a lot of you. React give you a freedom, other lib-framework don't give you. But that came with a cost. You need to take more decision, less convention, etc...
+These are common questions before starting most projects I believe. React gives us a freedom that, other libraries and frameworks don't give you, but React comes with it's own costs. You need to make more decisions, code with fewer conventions, etc...
 
-One question I always asked myself before creating state it's which component needs to know about it. If you say lot and lot of component you already answer yourself. Global state manager can help you in this case. But if the answer is this component and his children, probably better to keep it at component level state.
+One question I always ask myself before creating state is which components are involved in the state. If you believe many components will be involved then the answer is more obvious than when few components are involved. SML can help you in these cases, but if the answer is this component and his children, probably better to keep it at component level state.
 
 ### Form state
 
-So why not start with something I think everyone or the big majority would say same as me. Don't put form state in redux or any other lib like this. Use component lever state or tool like [formik](https://github.com/jaredpalmer/formik) or [react-final-form](https://github.com/final-form/react-final-form). I know before you most have used another lib like redux-form etc. But make sure to try these libs. They gonna change your way of thinking with form. They gonna help you make the form easier. For me my choice is Formik, I like to use it with [yup](https://github.com/jquense/yup) for creating validation schema.
+So why not start with something I think the majority would agree with me. Don't put form state in redux or any other lib, use component level state or tool like [formik](https://github.com/jaredpalmer/formik) or [react-final-form](https://github.com/final-form/react-final-form). I believe many developers have used another library like redux-form etc, but make sure to try these libs. Formik and React-Final-Form are going to change the way you think about Form state. They gonna help you make the managing of Form state easier than before when used.
 
-But I want to get the result of the login form inside my SML, how can I do this? Have seen this question a lot and the funny part of it is the answer is inside the question. **The Result**. Let Formik managed your form, handle the error, submit etc. And when you know all is good now push the result to your SML. Trust me, after building like 2-3 form, you don't gonna be able to live without Formik and yup.
+Personally I prefer Formik, I like to use it with [Yup](https://github.com/jquense/yup) for creating validation schema.
+
+I want to get the result of the login form inside my SML. You may wonder how can I do this? I have seen this question quite often and the answer is inside the question. **The Result**, let Formik manage your form, handle the error and submit. Then when you know all is good now push the result to your SML. Trust me, after building like 2-3 forms, you will not be able to live without Formik and Yup again.
 
 ### Animation state
 
-Again this one should be handle component level state. By doing it this way, you can reuse this component with animation in another project. Remember if you build a project today with Redux and you handle stuff in it example like this animation stuff. If you want to reuse it you gonna need first to use redux in a new project + came with all the boilerplate code he took for. By doing it component level state, it's almost one file copy and pastes and you get it. "Or you can put your component as an NPM package :)".
+The state should be managed at the component level state. By doing it this way, you can reuse this component with animation in another project. Remember if you build a project today with Redux and you handle this state with it and you want to reuse it you gonna need first to use redux in a new project + came with all the boilerplate code he took for. By creating it component level state, it's almost one file copy and pastes and you transferred a workable component to your new project, or you can upload component as an NPM package. :)
 
 ### App State
 
-When you build a modern app you need to know a lot about the current state of the app. Do the user is online or offline, location, app foreground or background in react-native, etc...
+When you build a modern app you need to know a great deal about the current state of the app. Is the user is online or offline? Is their location important? What is part of the app runs foreground or background in react-native, etc...
 
-This kind of state I really like to manage it with an SML. Why? Remember my question earlier, which component need it? First, this is not even just component some function gonna need to know about this. Example if offline you maybe gonna store what the user tries to send right now and push it back to the server when back online. After that maybe you want to show a little toastr or any other visual component who say app offline.
+This kind of state I really like to manage with SML. Why? Remember my question earlier about which components are involved? First, this is not even just component, some function gonna need to know about this. Example if offline you maybe gonna store what the user tries to send right now and push it back to the server when back online. Then maybe you want to show a little toastr or any other visual component who say app offline.
 
 For the location example if you keep it as a global you make sure than each component who need this value gonna have the same. SO if you build an app with a map + something else both gonna have the same source of truth.
 

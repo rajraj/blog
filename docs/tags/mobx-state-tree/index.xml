@@ -6,7 +6,7 @@
     <description>Recent content in Mobx State Tree on EQuimper&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 May 2018 17:37:40 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 13 May 2018 10:37:40 -0400</lastBuildDate>
     
 	<atom:link href="https://equimper.me/tags/mobx-state-tree/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,12 +14,12 @@
     <item>
       <title>How do I Manage my State with React</title>
       <link>https://equimper.me/post/how-do-i-manage-my-state-with-react/</link>
-      <pubDate>Thu, 10 May 2018 17:37:40 -0400</pubDate>
+      <pubDate>Sun, 13 May 2018 10:37:40 -0400</pubDate>
       
       <guid>https://equimper.me/post/how-do-i-manage-my-state-with-react/</guid>
       <description>Intro SML -&amp;gt; State management library -&amp;gt; like Redux or Mobx
-P.S This is just my thinking, this is not a best practice guide etc, just what I found best for the app I build.
-When building an app with react or react-native we came with a lot of choices. One of the most important ones is what to do with the state, where should I put it, how to use it, and how to make it easy to maintain.</description>
+P.S This is just my opinion, this is not a best practice guide etc, just what I found best for the app I built recently.
+When building an app with react or react-native I had lots of options. One of the most important option was how to manage state, where should I put it, how to use it, and lastly how make it easy to maintain.</description>
     </item>
     
   </channel>

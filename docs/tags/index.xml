@@ -41,7 +41,7 @@
     <item>
       <title>Formik</title>
       <link>https://equimper.me/tags/formik/</link>
-      <pubDate>Thu, 10 May 2018 17:37:40 -0400</pubDate>
+      <pubDate>Sun, 13 May 2018 10:37:40 -0400</pubDate>
       
       <guid>https://equimper.me/tags/formik/</guid>
       <description></description>
@@ -59,7 +59,7 @@
     <item>
       <title>Mobx</title>
       <link>https://equimper.me/tags/mobx/</link>
-      <pubDate>Thu, 10 May 2018 17:37:40 -0400</pubDate>
+      <pubDate>Sun, 13 May 2018 10:37:40 -0400</pubDate>
       
       <guid>https://equimper.me/tags/mobx/</guid>
       <description></description>
@@ -68,7 +68,7 @@
     <item>
       <title>Mobx State Tree</title>
       <link>https://equimper.me/tags/mobx-state-tree/</link>
-      <pubDate>Thu, 10 May 2018 17:37:40 -0400</pubDate>
+      <pubDate>Sun, 13 May 2018 10:37:40 -0400</pubDate>
       
       <guid>https://equimper.me/tags/mobx-state-tree/</guid>
       <description></description>
@@ -111,6 +111,15 @@
     </item>
     
     <item>
+      <title>Opinion</title>
+      <link>https://equimper.me/tags/opinion/</link>
+      <pubDate>Sun, 13 May 2018 10:37:40 -0400</pubDate>
+      
+      <guid>https://equimper.me/tags/opinion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Random</title>
       <link>https://equimper.me/tags/random/</link>
       <pubDate>Thu, 22 Jun 2017 18:18:59 -0500</pubDate>
@@ -122,7 +131,7 @@
     <item>
       <title>React</title>
       <link>https://equimper.me/tags/react/</link>
-      <pubDate>Thu, 10 May 2018 17:37:40 -0400</pubDate>
+      <pubDate>Sun, 13 May 2018 10:37:40 -0400</pubDate>
       
       <guid>https://equimper.me/tags/react/</guid>
       <description></description>
@@ -131,7 +140,7 @@
     <item>
       <title>Redux</title>
       <link>https://equimper.me/tags/redux/</link>
-      <pubDate>Thu, 10 May 2018 17:37:40 -0400</pubDate>
+      <pubDate>Sun, 13 May 2018 10:37:40 -0400</pubDate>
       
       <guid>https://equimper.me/tags/redux/</guid>
       <description></description>
@@ -143,15 +152,6 @@
       <pubDate>Sat, 25 Feb 2017 09:10:28 -0500</pubDate>
       
       <guid>https://equimper.me/tags/text-editor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thinking</title>
-      <link>https://equimper.me/tags/thinking/</link>
-      <pubDate>Thu, 10 May 2018 17:37:40 -0400</pubDate>
-      
-      <guid>https://equimper.me/tags/thinking/</guid>
       <description></description>
     </item>
     

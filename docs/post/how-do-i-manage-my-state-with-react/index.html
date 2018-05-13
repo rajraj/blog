@@ -18,8 +18,8 @@
 	<meta property="og:url" content="https://equimper.me/post/how-do-i-manage-my-state-with-react/">
 	<meta property="og:description" content="How do I manage my state in my react application">
 	<meta property="og:site_name" content="EQuimper&#39;s Blog">
-	<meta property="article:published_time" content="2018-05-10 17:37:40 -0400 EDT">
-	<meta property="article:tag" content="[react redux formik mobx-state-tree mobx thinking]" />
+	<meta property="article:published_time" content="2018-05-13 10:37:40 -0400 EDT">
+	<meta property="article:tag" content="[react redux formik mobx-state-tree mobx opinion article]" />
 	<meta property="fb:admins" content="1810930315896635">
 
 	
@@ -66,7 +66,7 @@
           How do I Manage my State with React
         </h1>
         <h2 class="headline">
-          May 10, 2018 17:37 · 934 words · 5 minutes read
+          May 13, 2018 10:37 · 954 words · 5 minutes read
           <span class="tags">
               
             <a href="https://equimper.me/tags/react">react</a>
@@ -79,7 +79,9 @@
             
             <a href="https://equimper.me/tags/mobx">mobx</a>
             
-            <a href="https://equimper.me/tags/thinking">thinking</a>
+            <a href="https://equimper.me/tags/opinion">opinion</a>
+            
+            <a href="https://equimper.me/tags/article">article</a>
               
           </span>
         </h2>
@@ -92,29 +94,31 @@
 
 <p><strong>SML</strong> -&gt; State management library -&gt; like Redux or Mobx</p>
 
-<p><strong>P.S</strong> This is just my thinking, this is not a best practice guide etc, just what I found best for the app I build.</p>
+<p><strong>P.S</strong> This is just my opinion, this is not a best practice guide etc, just what I found best for the app I built recently.</p>
 
-<p>When building an app with react or react-native we came with a lot of choices. One of the most important ones is what to do with the state, where should I put it, how to use it, and how to make it easy to maintain.</p>
+<p>When building an app with react or react-native I had lots of options. One of the most important option was how to manage state, where should I put it, how to use it, and lastly how make it easy to maintain.</p>
 
-<p>These questions are surely asked by a lot of you. React give you a freedom, other lib-framework don&rsquo;t give you. But that came with a cost. You need to take more decision, less convention, etc&hellip;</p>
+<p>These are common questions before starting most projects I believe. React gives us a freedom that, other libraries and frameworks don&rsquo;t give you, but React comes with it&rsquo;s own costs. You need to make more decisions, code with fewer conventions, etc&hellip;</p>
 
-<p>One question I always asked myself before creating state it&rsquo;s which component needs to know about it. If you say lot and lot of component you already answer yourself. Global state manager can help you in this case. But if the answer is this component and his children, probably better to keep it at component level state.</p>
+<p>One question I always ask myself before creating state is which components are involved in the state. If you believe many components will be involved then the answer is more obvious than when few components are involved. SML can help you in these cases, but if the answer is this component and his children, probably better to keep it at component level state.</p>
 
 <h3 id="form-state">Form state</h3>
 
-<p>So why not start with something I think everyone or the big majority would say same as me. Don&rsquo;t put form state in redux or any other lib like this. Use component lever state or tool like <a href="https://github.com/jaredpalmer/formik">formik</a> or <a href="https://github.com/final-form/react-final-form">react-final-form</a>. I know before you most have used another lib like redux-form etc. But make sure to try these libs. They gonna change your way of thinking with form. They gonna help you make the form easier. For me my choice is Formik, I like to use it with <a href="https://github.com/jquense/yup">yup</a> for creating validation schema.</p>
+<p>So why not start with something I think the majority would agree with me. Don&rsquo;t put form state in redux or any other lib, use component level state or tool like <a href="https://github.com/jaredpalmer/formik">formik</a> or <a href="https://github.com/final-form/react-final-form">react-final-form</a>. I believe many developers have used another library like redux-form etc, but make sure to try these libs. Formik and React-Final-Form are going to change the way you think about Form state. They gonna help you make the managing of Form state easier than before when used.</p>
 
-<p>But I want to get the result of the login form inside my SML, how can I do this? Have seen this question a lot and the funny part of it is the answer is inside the question. <strong>The Result</strong>. Let Formik managed your form, handle the error, submit etc. And when you know all is good now push the result to your SML. Trust me, after building like 2-3 form, you don&rsquo;t gonna be able to live without Formik and yup.</p>
+<p>Personally I prefer Formik, I like to use it with <a href="https://github.com/jquense/yup">Yup</a> for creating validation schema.</p>
+
+<p>I want to get the result of the login form inside my SML. You may wonder how can I do this? I have seen this question quite often and the answer is inside the question. <strong>The Result</strong>, let Formik manage your form, handle the error and submit. Then when you know all is good now push the result to your SML. Trust me, after building like 2-3 forms, you will not be able to live without Formik and Yup again.</p>
 
 <h3 id="animation-state">Animation state</h3>
 
-<p>Again this one should be handle component level state. By doing it this way, you can reuse this component with animation in another project. Remember if you build a project today with Redux and you handle stuff in it example like this animation stuff. If you want to reuse it you gonna need first to use redux in a new project + came with all the boilerplate code he took for. By doing it component level state, it&rsquo;s almost one file copy and pastes and you get it. &ldquo;Or you can put your component as an NPM package :)&ldquo;.</p>
+<p>The state should be managed at the component level state. By doing it this way, you can reuse this component with animation in another project. Remember if you build a project today with Redux and you handle this state with it and you want to reuse it you gonna need first to use redux in a new project + came with all the boilerplate code he took for. By creating it component level state, it&rsquo;s almost one file copy and pastes and you transferred a workable component to your new project, or you can upload component as an NPM package. :)</p>
 
 <h3 id="app-state">App State</h3>
 
-<p>When you build a modern app you need to know a lot about the current state of the app. Do the user is online or offline, location, app foreground or background in react-native, etc&hellip;</p>
+<p>When you build a modern app you need to know a great deal about the current state of the app. Is the user is online or offline? Is their location important? What is part of the app runs foreground or background in react-native, etc&hellip;</p>
 
-<p>This kind of state I really like to manage it with an SML. Why? Remember my question earlier, which component need it? First, this is not even just component some function gonna need to know about this. Example if offline you maybe gonna store what the user tries to send right now and push it back to the server when back online. After that maybe you want to show a little toastr or any other visual component who say app offline.</p>
+<p>This kind of state I really like to manage with SML. Why? Remember my question earlier about which components are involved? First, this is not even just component, some function gonna need to know about this. Example if offline you maybe gonna store what the user tries to send right now and push it back to the server when back online. Then maybe you want to show a little toastr or any other visual component who say app offline.</p>
 
 <p>For the location example if you keep it as a global you make sure than each component who need this value gonna have the same. SO if you build an app with a map + something else both gonna have the same source of truth.</p>
 
