@@ -1,9 +1,9 @@
 ---
-title: "How do I Manage my State with React"
-linktitle: "How do I Manage my State with React"
+title: "How do I Manage my State with React?"
+linktitle: "How do I Manage my State with React?"
 date: 2018-05-13T10:37:40-04:00
-description: "How do I manage my state in my react application"
-tags: ["react", "redux", "formik", "mobx-state-tree", "mobx", "opinion", "article"]
+description: "How do I manage my state in my react application? When to use Redux, Mobx, Context Api vs Component level State? What to do for handle Form state? How can I make my app state easier to maintain?"
+tags: ["react", "redux", "formik", "mobx-state-tree", "mobx", "context-api", "opinion", "article"]
 ---
 
 ## Intro

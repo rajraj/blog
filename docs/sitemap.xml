@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://equimper.me/about/</loc>
+    <lastmod>2018-05-13T11:37:04-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://equimper.me/post/how-do-i-manage-my-state-with-react/</loc>
     <lastmod>2018-05-13T10:37:40-04:00</lastmod>
   </url>
@@ -51,6 +56,12 @@
   <url>
     <loc>https://equimper.me/tags/command-line/</loc>
     <lastmod>2017-06-22T18:18:59-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://equimper.me/tags/context-api/</loc>
+    <lastmod>2018-05-13T10:37:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   
