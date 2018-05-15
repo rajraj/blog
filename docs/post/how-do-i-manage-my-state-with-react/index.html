@@ -66,7 +66,7 @@
           How do I manage state with React?
         </h1>
         <h2 class="headline">
-          May 13, 2018 10:37 · 998 words · 5 minutes read
+          May 13, 2018 10:37 · 994 words · 5 minutes read
           <span class="tags">
               
             <a href="https://equimper.me/tags/react">react</a>
@@ -96,21 +96,21 @@
 
 <p><strong>SML</strong> -&gt; State management library (e.g. Redux &amp; MobX)</p>
 
-<p><strong>P.S.</strong> This is just my opinion, this is not a best practice guide etc. It is just what I&rsquo;ve found to be the best for an app I built recently.</p>
+<p><strong>P.S.</strong> This is just my opinion, this is not a best practice guide etc. It is just what I&rsquo;ve found to be the best for the apps I built recently.</p>
 
 <p>When building an app with React or React Native I had lots of options. One of the most important option was how to manage state, where to store it, how to use it, and lastly, how to make it easy to maintain.</p>
 
-<p>I believe these are common questions before starting most projects. React gives us freedom and liberty that other libraries and frameworks don&rsquo;t give you, but it comes with its own costs. You need to make more decisions, code with fewer conventions, etc.</p>
+<p>I believe these are common questions before starting most projects. React gives us freedom and liberty that other libraries and frameworks don&rsquo;t give you, but it comes with it&rsquo;s own costs. You need to make more decisions, code with fewer conventions, etc.</p>
 
-<p>One question I always ask myself before creating/managing state is which components are involved with this state. If you believe many components will be involved, then the answer is more obvious than when only a few components are involved. A SML can help you in these cases. When the answer is a single component and its children, it is probably better to keep it at the component level state.</p>
+<p>One question I always ask myself before creating/managing state is which components are involved with this state. If you believe many components will be involved, then the answer is more obvious than when only a few components are involved. A SML can help you in these cases. When the answer is a single component and it&rsquo;s children, it is probably better to keep it at the component level state.</p>
 
 <h3 id="form-state">Form state</h3>
 
-<p>So why not start with something I think the majority would agree. Don&rsquo;t put form state in Redux or any other lib, use component level state or tools like <a href="https://github.com/jaredpalmer/formik">formik</a> or <a href="https://github.com/final-form/react-final-form">react-final-form</a>. I believe many developers have used libraries like redux-form or something similar, but make sure to try these libs. Formik and React-Final-Form are going to change the way you think about forms state. They are gonna help you make the managing of you forms state easier than before when used.</p>
+<p>So why not start with something I think the majority would agree. Don&rsquo;t put form state in Redux or any other lib, use component level state or tools like <a href="https://github.com/jaredpalmer/formik">formik</a> or <a href="https://github.com/final-form/react-final-form">react-final-form</a>. I believe many developers have used libraries like redux-form or something similar, but make sure to try these libs. Formik and React-Final-Form are going to change the way you think about forms state. They&rsquo;re gonna help you with the management of you forms state easier than before.</p>
 
 <p>Personally I prefer Formik, I like to use it with <a href="https://github.com/jquense/yup">Yup</a> for creating validation schema.</p>
 
-<p>I want to get the result of the login form inside my SML. You may wonder how can I do this? I have seen this question quite often and the answer is inside the question. <strong>The Result</strong>. Let Formik manage your form, handle the error(s) and submit. Then when you know all is good, store the result in your SML. Trust me, after building like 2-3 forms, you will not be able to live without Formik and Yup again.</p>
+<p>I want to get the result of the login form inside my SML. You may wonder how may I do this? I have seen this question quite often and the answer is inside the question. <strong>The Result</strong>. Let Formik manage your form, handle the error(s) and submit. Then when you know all is good, store the result in your SML. Trust me, after building like 2-3 forms, you will not be able to live without Formik and Yup again.</p>
 
 <h3 id="animation-state">Animation state</h3>
 
@@ -118,15 +118,15 @@
 
 <h3 id="app-state">App State</h3>
 
-<p>When you build a modern app you need to know a great deal about the current state of the app. Is the user online or offline? Is their location important? What is part of the app runs foreground or background in react-native, etc&hellip;</p>
+<p>When you build a modern app you need to know a great deal about the current state of the app. Is the user online or offline? Is their location important? What is the part of the app that runs foreground or background in react-native, etc&hellip;</p>
 
-<p>This kind of state I really like to manage with a SML. Why? Remember my question earlier about which components are involved? First, this is not even just component, some functions are gonna need to know about this. For example, when a user is offline, you may want to store what the user tries to send and push it later to the server when he&rsquo;s back online. You may also want to show a little toastr (or any other visual component) which says the app is in an offline mode.</p>
+<p>This is the kind of state I really like to manage with a SML. Why? Remember my question earlier about which components are involved? First, this is not even just component, some functions will need to know about this. For example, if offline you might store what the user tries to send and push it later to the server when he&rsquo;s back online. Then maybe you want to show a little toastr (or any other visual component) that says the app is in an offline mode.</p>
 
-<p>In the the geolocation example, if you keep it as a <em>global</em>, you are making sure that each component(s) who need this value are going to have the same exact value. So, if you build an app with a map + something else, both are gonna have the same source of truth.</p>
+<p>In the the geolocation example, if you keep it as a <em>global</em>, you are making sure that each component(s) who need this value will have the same exact value. So, if you build an app with a map + something else, both are gonna have the same source of truth.</p>
 
 <h3 id="modal-toastr-theme-manager">Modal, toastr, theme manager</h3>
 
-<p>This one again I would go with a SML or now with the <a href="https://medium.com/dailyjs/reacts-%EF%B8%8F-new-context-api-70c9fe01596b">Context API</a>. First, for a toastr and/or a modal, I think it is much simpler to keep just one instance of them. What do I mean by that? For instance, you declare one component who acts as the modal parent. This component handles if the modal is visible and if it is, which <em>type</em> it represents (for example, if it&rsquo;s a welcome modal or a modal for a certain situation).</p>
+<p>For this I once again go with a SML or now that it is released, the <a href="https://medium.com/dailyjs/reacts-%EF%B8%8F-new-context-api-70c9fe01596b">Context API</a>. First, for a toastr and/or a modal, I think it is much simpler to keep just one instance of them. What do I mean by that? For instance, you declare one component who acts as the modal parent. This component handles if the modal is visible and if it is, which <em>type</em> it represents (for example, if it&rsquo;s a welcome modal or a modal for a certain situation).</p>
 
 <p>This one should connect with your SML. Why? Because the action to open the modal is surely gonna be used deeply in your app and you don&rsquo;t want to pass down this action 20 levels deep.</p>
 

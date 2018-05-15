@@ -28,7 +28,7 @@ Create your first Simple Test First thing this is a simple controller in your ap
       
       <guid>https://equimper.me/post/how-do-i-manage-my-state-with-react/</guid>
       <description>Intro SML -&amp;gt; State management library (e.g. Redux &amp;amp; MobX)
-P.S. This is just my opinion, this is not a best practice guide etc. It is just what I&amp;rsquo;ve found to be the best for an app I built recently.
+P.S. This is just my opinion, this is not a best practice guide etc. It is just what I&amp;rsquo;ve found to be the best for the apps I built recently.
 When building an app with React or React Native I had lots of options. One of the most important option was how to manage state, where to store it, how to use it, and lastly, how to make it easy to maintain.</description>
     </item>
     
