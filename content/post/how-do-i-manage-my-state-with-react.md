@@ -1,58 +1,59 @@
 ---
-title: "How do I Manage my State with React?"
-linktitle: "How do I Manage my State with React?"
+title: "How do I manage state with React?"
+linktitle: "How do I manage state with React?"
 date: 2018-05-13T10:37:40-04:00
-description: "How do I manage my state in my react application? When to use Redux, Mobx, Context Api vs Component level State? What to do for handle Form state? How can I make my app state easier to maintain?"
+description: "How do I manage state in my react application? When to use Redux, MobX, Context API vs Component level state? What to do to handle forms state? How can I make my app state easier to maintain?"
 tags: ["react", "redux", "formik", "mobx-state-tree", "mobx", "context-api", "opinion", "article"]
 ---
 
 ## Intro
 
-**SML** -> State management library -> like Redux or Mobx
+**SML** -> State management library (e.g. Redux & MobX)
 
-**P.S** This is just my opinion, this is not a best practice guide etc, just what I found best for the app I built recently.
+**P.S.** This is just my opinion, this is not a best practice guide etc. It is just what I've found to be the best for an app I built recently.
 
-When building an app with react or react-native I had lots of options. One of the most important option was how to manage state, where should I put it, how to use it, and lastly how make it easy to maintain.
+When building an app with React or React Native I had lots of options. One of the most important option was how to manage state, where to store it, how to use it, and lastly, how to make it easy to maintain.
 
-These are common questions before starting most projects I believe. React gives us a freedom that, other libraries and frameworks don't give you, but React comes with it's own costs. You need to make more decisions, code with fewer conventions, etc...
+I believe these are common questions before starting most projects. React gives us freedom and liberty that other libraries and frameworks don't give you, but it comes with its own costs. You need to make more decisions, code with fewer conventions, etc.
 
-One question I always ask myself before creating state is which components are involved in the state. If you believe many components will be involved then the answer is more obvious than when few components are involved. SML can help you in these cases, but if the answer is this component and his children, probably better to keep it at component level state.
+One question I always ask myself before creating/managing state is which components are involved with this state. If you believe many components will be involved, then the answer is more obvious than when only a few components are involved. A SML can help you in these cases. When the answer is a single component and its children, it is probably better to keep it at the component level state.
 
 ### Form state
 
-So why not start with something I think the majority would agree with me. Don't put form state in redux or any other lib, use component level state or tool like [formik](https://github.com/jaredpalmer/formik) or [react-final-form](https://github.com/final-form/react-final-form). I believe many developers have used another library like redux-form etc, but make sure to try these libs. Formik and React-Final-Form are going to change the way you think about Form state. They gonna help you make the managing of Form state easier than before when used.
+So why not start with something I think the majority would agree. Don't put form state in Redux or any other lib, use component level state or tools like [formik](https://github.com/jaredpalmer/formik) or [react-final-form](https://github.com/final-form/react-final-form). I believe many developers have used libraries like redux-form or something similar, but make sure to try these libs. Formik and React-Final-Form are going to change the way you think about forms state. They are gonna help you make the managing of you forms state easier than before when used.
 
 Personally I prefer Formik, I like to use it with [Yup](https://github.com/jquense/yup) for creating validation schema.
 
-I want to get the result of the login form inside my SML. You may wonder how can I do this? I have seen this question quite often and the answer is inside the question. **The Result**, let Formik manage your form, handle the error and submit. Then when you know all is good now push the result to your SML. Trust me, after building like 2-3 forms, you will not be able to live without Formik and Yup again.
+I want to get the result of the login form inside my SML. You may wonder how can I do this? I have seen this question quite often and the answer is inside the question. **The Result**. Let Formik manage your form, handle the error(s) and submit. Then when you know all is good, store the result in your SML. Trust me, after building like 2-3 forms, you will not be able to live without Formik and Yup again.
 
 ### Animation state
 
-The state should be managed at the component level state. By doing it this way, you can reuse this component with animation in another project. Remember if you build a project today with Redux and you handle this state with it and you want to reuse it you gonna need first to use redux in a new project + came with all the boilerplate code he took for. By creating it component level state, it's almost one file copy and pastes and you transferred a workable component to your new project, or you can upload component as an NPM package. :)
+The state should be managed at the component level state. By doing it this way, you can reuse this component with animation in another project. Remember if you build a project today with Redux and you handle this state with it and you want to reuse it, you will also need to use Redux in this new project and all the related boilerplate code. By creating it at the component level state, it's almost as simple as copying & pasting one file to transfer a usable component to your new project - Or you can publish it as an NPM package! :)
 
 ### App State
 
-When you build a modern app you need to know a great deal about the current state of the app. Is the user is online or offline? Is their location important? What is part of the app runs foreground or background in react-native, etc...
+When you build a modern app you need to know a great deal about the current state of the app. Is the user online or offline? Is their location important? What is part of the app runs foreground or background in react-native, etc...
 
-This kind of state I really like to manage with SML. Why? Remember my question earlier about which components are involved? First, this is not even just component, some function gonna need to know about this. Example if offline you maybe gonna store what the user tries to send right now and push it back to the server when back online. Then maybe you want to show a little toastr or any other visual component who say app offline.
+This kind of state I really like to manage with a SML. Why? Remember my question earlier about which components are involved? First, this is not even just component, some functions are gonna need to know about this. For example, when a user is offline, you may want to store what the user tries to send and push it later to the server when he's back online. You may also want to show a little toastr (or any other visual component) which says the app is in an offline mode.
 
-For the location example if you keep it as a global you make sure than each component who need this value gonna have the same. SO if you build an app with a map + something else both gonna have the same source of truth.
+In the the geolocation example, if you keep it as a _global_, you are making sure that each component(s) who need this value are going to have the same exact value. So, if you build an app with a map + something else, both are gonna have the same source of truth.
 
 ### Modal, toastr, theme manager
 
-This one again I go with SML or now with the [context api](https://medium.com/dailyjs/reacts-%EF%B8%8F-new-context-api-70c9fe01596b). First, for toastr and modal, I think this is much simpler to keep just one instance of them. What do I mean by that? I talk about example having one component who is the modal parent. He handles if the modal show or which type. Example if this is a welcome modal or a modal for a certain action.
-But this one connect with your SML, why? Because the action for open the modal gonna be use surely deeply in your app and you don't want to pass down this action 20 levels deep.
+This one again I would go with a SML or now with the [Context API](https://medium.com/dailyjs/reacts-%EF%B8%8F-new-context-api-70c9fe01596b). First, for a toastr and/or a modal, I think it is much simpler to keep just one instance of them. What do I mean by that? For instance, you declare one component who acts as the modal parent. This component handles if the modal is visible and if it is, which _type_ it represents (for example, if it's a welcome modal or a modal for a certain situation).
 
-For the theme, I think you don't have another choice. You can use the new context API who I think it's awesome for this kind of stuff or you can use your SML for this.
+This one should connect with your SML. Why? Because the action to open the modal is surely gonna be used deeply in your app and you don't want to pass down this action 20 levels deep.
+
+When dealing with a theme, I think you don't have many options. You can use the new Context API (which I think is awesome for this kind of stuff) or you can use your SML of choice.
 
 ### User state
 
-This one is surely one of the most basic ones we all use. Keeping the current viewer state. If the user is logged or not, avatar URL etc. I think this one should be handled in the SML. The navbar lot of time need the avatar URL and also if the user is logged for showing some link or not. But somewhere else also in the app. Also if the user sees his profile maybe he can be updated but if he looks at someone else this is just a plain view.
+This one is surely one of the most common one. Keeping the current viewer state. Is the user logged in or not, his avatar URL etc. I think this one should be handled in your SML. More often than not, the navbar is going to need the avatar URL and also if the user is logged in to conditionally show some links. Also, when the user sees his profile, he can probably update it but if he's looking at someone else's profile, it may be just a plain view.
 
 ### Conclusion
 
-I hope this little article has helped you at some point. If your question is which SML I like the most, I think right now is [mobx-state-tree](https://github.com/mobxjs/mobx-state-tree) who is like redux meet mobx.
+I hope this little article has helped you at some point. If your question is which SML I like the most, I think right now it is [mobx-state-tree](https://github.com/mobxjs/mobx-state-tree) which is like Redux meets MobX.
 
-Hope you see why React state can be really useful and don't make the same mistake I make when I started, just use SML state and no more component level state.
+Hope you see why React state can be really useful and don't make the same mistake I made when starting by only using the SML state and never using component level state.
 
-Let me know in the comment if you have any question or you find some typo :)
+Let me know in the comments if you have any questions or if you find some typos :)
