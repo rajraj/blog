@@ -1,15 +1,13 @@
-	{{ partial "head.html" . }}
-	<body>
-    {{ partial "nav.html" . }}
+ {{ partial "head.html" . }}
 
-    {{ partial "profile.html" . }}
+<body>
+  {{ partial "nav.html" . }} {{ partial "profile.html" . }}
 
-    <section id="wrapper" class="home fade-in two">
-      {{ partial "post-list.html"  . }}
-      {{ partial "pagination.html" . }}
-      {{ partial "footer.html"     . }}
-    </section>
+  <section id="wrapper" class="home fade-in two">
+    {{ partial "post-list.html" . }} {{ partial "pagination.html" . }} {{ partial "footer.html" . }}
+  </section>
 
-    {{ partial "js.html" . }}
-    </body>
+  {{ partial "js.html" . }}
+</body>
+
 </html>
